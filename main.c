@@ -6,7 +6,7 @@
 /*   By: ttshivhu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/21 14:17:06 by ttshivhu          #+#    #+#             */
-/*   Updated: 2017/11/21 14:20:41 by ttshivhu         ###   ########.fr       */
+/*   Updated: 2017/11/21 15:43:00 by ttshivhu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -166,7 +166,7 @@ int		main(int c, char **v)
         dsp(grid);
         if (solve(grid))
             break ;
-        usleep(200000);
+        usleep(20000);
     }
     return (0);
 }
